@@ -1,10 +1,12 @@
 import './sass/bootstrap/scss/bootstrap.scss';
+import './sass/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './pages/home';
 
 ReactDOM.render(
-    <Home></Home>,
+    // <Home></Home>,
+    <Home title="title given when home is instantiated"></Home>,
     document.getElementById('root')
 )
 
